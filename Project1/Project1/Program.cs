@@ -6,7 +6,11 @@ namespace Project1
 	{
 		static void Main(string[] args)
 		{
+			Console.BackgroundColor = ConsoleColor.Black;
+			Console.ForegroundColor = ConsoleColor.DarkGreen;
+			Console.Clear();
 			Console.WriteLine("Hello World!");
+			Console.ReadLine();
 		}
 	}
 }
